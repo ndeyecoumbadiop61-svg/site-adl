@@ -1,0 +1,97 @@
+body {
+     font-family: 'Montserrat', sans-serif; }
+.adl-green-text {
+     color: #2e6332; 
+    }
+.adl-yellow-text {
+     color: #f9d423; }
+.bg-adl-green {
+     background-color: #2e6332 !important; }
+.bg-adl-yellow {
+     background-color: #f9d423; }
+
+/* Navbar */
+.nav-link-adl { 
+    color: #2e6332 !important; 
+    font-weight: 700; }
+.btn-contact-box {
+     border: 2px solid #2e6332;
+     color: #2e6332;
+      font-weight: bold; border-radius: 5px; }
+.btn-contact-box:hover {
+     background-color: #f9d423; 
+     color: #2e6332; }
+
+/* Accueil */
+.hero-section {
+     position: relative;
+     height: 80vh; overflow: hidden; }
+.overlay-image { 
+    width: 100%;
+     height: 100vh;
+      background-size: cover; 
+      background-position: center; 
+      filter: blur(2px) brightness(0.7); }
+.hero-content {
+     position: absolute;
+      top: 50%; 
+      left: 50%;
+       transform: translate(-50%, -50%);
+        z-index: 10;
+         width: 100%; }
+.slogan-container {
+     display: flex; align-items: center;
+      justify-content: center; }
+.barre-rouge {
+     width: 60px;
+      height: 8px;
+       background-color: #d9534f; }
+
+/* Design */
+.border-red-thick {
+     border: 10px solid #d9534f;
+      width: 350px;
+       height: 350px;
+        object-fit: cover; }
+.os-card { 
+    border: 7px solid #d9534f;
+     border-radius: 15px;
+      padding: 20px; }
+.os-circle {
+     background-color: #f9d423;
+      color: green;
+       width: 50px;
+        height: 50px;
+         border-radius: 50%;
+          display: flex;
+           align-items: center; 
+           justify-content: center;
+            margin: 0 auto 10px;
+             font-weight: bold; }
+.card-img-custom {
+     height: 200px;
+      object-fit: cover;
+       border-bottom: 4px solid #d9534f; }
+.cible-bubble {
+     background: white;
+      color: #2e6332;
+       padding: 15px 25px;
+        border-radius: 60px;
+         font-weight: bold;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.badge-adl {
+     background-color: #2e6332;
+      color: #f9d423;
+       padding: 8px 12px; }
+
+/* Footer */
+.social-links a {
+     color: white;
+      font-size: 2rem;
+       margin: 0 10px;
+        transition: 0.3s; }
+.social-links a:hover { 
+    color: #f9d423; transform: scale(1.1); }
+.fw-black { font-weight: 900; }
+html { scroll-behavior: smooth; }
+section { scroll-margin-top: 80px; }
